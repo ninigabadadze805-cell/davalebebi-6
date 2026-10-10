@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b356a;
+    padding: 100px;
+}
+.cardebi {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  
+}
+.box1{
+ background-color: #fef5f5;
+ padding: 30px;
+ width:fit-content;
+ height: fit-content;
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+}
+.box1 h4{
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 24px;
+    width: 300px;
+}
+.loc i{
+    color: chocolate;
+}
+.loc span {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.box1 p{
+    font-family:"open sans", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    width: 300px;
+    margin: 12px 0;
+}
+.link {
+    font-size: 18px;
+    color: #284072;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.box1 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.box2{ 
+    padding: 30px;
+    background-color:#fef5f5;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.box2 h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    width: 300px;
+    font-weight: 600;
+
+}
+.box2 span {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+.box2 p {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 12px 0;
+    width: 300px;
+}
+.box2 img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.box3{
+    padding: 30px;
+    background-color: #fef5f5;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.box3 h4{
+    font-family:  Montserrat;
+    font-size: 24px;
+    width: 300px;
+    font-weight: 600;
+}
+.box3 span{
+    font-size: 14px;
+    font-family: "open sans", sans-serif;
+    font-style: italic;
+}
+.box3 p{
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    margin: 12px 0px;
+    font-style: italic;
+    width: 300px;
+}
+.box3 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
